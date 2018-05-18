@@ -1,20 +1,19 @@
-package event.glmodule;
+package by.maribo.minesweeper.event.glmodule;
 
 import org.lwjgl.input.Mouse;
-import event.Click;
-import event.MouseModule;
+import by.maribo.minesweeper.event.Click;
+import by.maribo.minesweeper.event.MouseModule;
 
 import java.util.LinkedList;
 
-import static main.Constants.CELL_SIZE;
+import static by.maribo.minesweeper.Constants.CELL_SIZE;
 
 /**
  * Реализует считывание с мыши необходимых игре параметров
  */
 public class glMouseModule implements MouseModule {
 
-    LinkedList<Click> stack;
-
+    private LinkedList<Click> stack;
 
     /**
      * Считывание последних данных из стека событий

@@ -1,4 +1,4 @@
-package event;
+package by.maribo.minesweeper.event;
 
 public class Click {
     public int x, y, button;

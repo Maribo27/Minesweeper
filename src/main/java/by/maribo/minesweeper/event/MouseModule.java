@@ -1,4 +1,4 @@
-package event;
+package by.maribo.minesweeper.event;
 
 import java.util.LinkedList;
 
